@@ -1,0 +1,38 @@
+REACT Roadmap
+
+why learn ?
+-hype,job,trend,UI
+-make easy to make complex front-end
+
+react complie in html,css,js(build time)
+-most project dont need REACT
+
+.....why react was created ?  PHANTOM MESSAGE IN FACEBOOK
+
+state (variable) -> JS     &         UI -> DOM
+----->>>>>  BOTH JS AND DOM WHERE NOT SYNC
+
+ADOPT -> khan academy & unsplash
+
+framework is milatary (not that freedome) 
+library is cool dude (freedome)
+
+REACT IS LIBRARY
+REACT CREATE SPA -> (SINGLE PAGE APPLICATION)
+
+.............. TOPICS .............
+Core of REACT (STATE AND UI MANUPLATION,JSX)
+COMPONENTS REUSABILITY
+REUSING OF COMPONENTS ( props -> properties )
+HOW TO PROPOGATE CHANGE (HOOKS)
+
+----->>>>>ADDITIONAL ADDON IN REACT
+........REACT DON'T HAVE THUS 
+ROUTER ( SPA  MANUPLATION )
+STATE MANAGEMENT (variable UPDATE)
+CLASS BASE COMPONENTS  >>THIS IS OLD (NOW REACT IS FUNCTION )
+BAAS >>BACKEND AS A SERVICE ()
+
+>>AFTER REACT LEARN
+not a complete soluton/browser rendring(slow)
+learn Next js,Remix,Gateby
