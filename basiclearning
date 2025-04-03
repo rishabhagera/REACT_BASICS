@@ -1,0 +1,160 @@
+REACT Roadmap
+
+why learn ?
+-hype,job,trend,UI
+-make easy to make complex front-end
+
+react complie in html,css,js(build time)
+-most project dont need REACT
+
+.....why react was created ?  PHANTOM MESSAGE IN FACEBOOK
+
+state (variable) -> JS     &         UI -> DOM
+----->>>>>  BOTH JS AND DOM WHERE NOT SYNC
+
+ADOPT -> khan academy & unsplash
+
+framework is milatary (not that freedome) 
+library is cool dude (freedome)
+
+REACT IS LIBRARY
+REACT CREATE SPA -> (SINGLE PAGE APPLICATION)
+
+.............. TOPICS .............
+Core of REACT (STATE AND UI MANUPLATION,JSX)
+COMPONENTS REUSABILITY
+REUSING OF COMPONENTS ( props -> properties )
+HOW TO PROPOGATE CHANGE (HOOKS)
+
+----->>>>>ADDITIONAL ADDON IN REACT
+........REACT DON'T HAVE THUS 
+ROUTER ( SPA  MANUPLATION )
+STATE MANAGEMENT (variable UPDATE)
+CLASS BASE COMPONENTS  >>THIS IS OLD (NOW REACT IS FUNCTION )
+BAAS >>BACKEND AS A SERVICE ()
+
+>>AFTER REACT LEARN
+not a complete soluton/browser rendring(slow)
+learn Next js,Remix,Gateby
+
+
+
+///////////////////////////////// lecture -> 2 /////////////////////////////////////
+
+react is library which has 2 types of attachment
+                        react
+         >> react-dom                              >>react-native
+if work on website/web and react            if work on mobile app  and react needed
+
+
+npm ->node package manager 
+npx-> node package execute
+
+
+react app create steps
+
+this is old way take long time (bulky utility)
+1. npx create-react-app
+
+package.json is the entry point  
+
+
+PS C:\Users\DELL\Desktop\react> cd  01basicreact
+PS C:\Users\DELL\Desktop\react\01basicreact>
+PS C:\Users\DELL\Desktop\react> cd  01basicreact
+PS C:\Users\DELL\Desktop\react> cd  01basicreact
+PS C:\Users\DELL\Desktop\react\01basicreact> dir 
+
+
+    Directory: C:\Users\DELL\Desktop\react\01basicreact
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          4/3/2025   3:11 AM                node_modules
+d-----          4/3/2025   3:10 AM                public
+d-----          4/3/2025   3:10 AM                src
+-a----          4/3/2025   3:08 AM            310 .gitignore
+-a----          4/3/2025   3:11 AM         662848 package-lock.json
+-a----          4/3/2025   3:11 AM            853 package.json
+-a----          4/3/2025   3:09 AM           3359 README.md
+
+
+PS C:\Users\DELL\Desktop\react\01basicreact> npm run start
+PS C:\Users\DELL\Desktop\react\01basicreact> npm run build 
+
+>>>build create a folder in the appwhich is served to users in from of website  
+
+
+
+2. CREATE A APP THREW VITE
+
+PS C:\Users\DELL\Desktop\react> ls
+
+
+    Directory: C:\Users\DELL\Desktop\react
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          4/3/2025   3:25 AM                01basicreact
+-a----          4/3/2025   3:30 AM           2648 basiclearning
+
+
+PS C:\Users\DELL\Desktop\react> npm create vite@latest 
+
+> npx
+> cva
+
+│
+◇  Project name:
+│  01vitereact
+│
+◇  Select a framework:
+│  React
+│
+◇  Select a variant:
+│  JavaScript
+│
+◇  Scaffolding project in C:\Users\DELL\Desktop\react\01vitereact...
+│
+└  Done. Now run:
+
+  cd 01vitereact 
+  npm install    
+  npm run dev    
+
+PS C:\Users\DELL\Desktop\react> 
+
+
+>>>vite dont have node file for that need to work 
+
+
+PS C:\Users\DELL\Desktop\react\01vitereact> npm install
+
+added 150 packages, and audited 151 packages in 47s
+
+30 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\DELL\Desktop\react\01vitereact> 
+
+
+>>>> now running the app
+
+PS C:\Users\DELL\Desktop\react\01vitereact> npm run dev
+
+> 01vitereact@0.0.0 dev
+> vite
+
+
+  VITE v6.2.4  ready in 672 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+
+####### 01 basic react project 
+>build 1 time genrate
